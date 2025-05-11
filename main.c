@@ -13,7 +13,7 @@ int main()
 	scanf_s(" %s", lastName, (unsigned)_countof(lastName));
 
 	(lastName[0] < 'M') ? printf("Blue Team") : printf("Red Team") ;  // you can test characters or numbers (A-Z)
-
+// In this situation "?" acts like an "if" and ":" acts like "else"
 	return 0;
 }
 
